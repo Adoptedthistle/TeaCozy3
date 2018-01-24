@@ -1,4 +1,5 @@
 /*Universal Styles*/
+
 body{
   font-family: "Helvetica", sans-serif;
   font-size: 22px;
@@ -21,7 +22,6 @@ h2,h3,h4{
 }
 
 /*Header and navigation*/
-
 
 header{
   display: flex;
@@ -98,10 +98,14 @@ nav span {
 /*Store*/
 
 .store{
-  width: 1000px;
-  height: 700px;
-  margin:auto;
+  /*height: 700px;*/
   padding-top: 70px;
+}
+
+.teacontent_container{
+  width:1000px;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .items{
@@ -109,7 +113,6 @@ nav span {
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-
 }
 
 .items img {
@@ -123,13 +126,18 @@ nav span {
   padding:5px;
 }
 
-/*Locations*/
+/*Locations - Please note that I have increased the height of the background-image to look like the redline layout*/
 
 .locations{
   width:1200px;
-  height:500px;
+  height:575px;
   margin: auto;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  opacity:1;
+}
+
+.venue_container{
+  width: 1000px;
 }
 
 .venues{
@@ -137,13 +145,26 @@ nav span {
   position: relative;
   background-color:black;
   text-align: center;
+
   margin: 0 auto;
   width:300px;
-  margin-top: 15px;
-  margin-right: 40px;
+  height:250px;
+  /*margin: 50px 20px;
+  padding: 10px;*/
+
 }
 
+/*.venue .Downtown,
+.venue .Bayside{
+  margin-right: 40px;
+}*/
+
 /*Footer*/
+
+.contact{
+  height: 200px;
+  padding: 20px;
+}
 
 footer{
   text-align: left;
