@@ -105,11 +105,47 @@ nav span {
 }
 
 .items{
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
   justify-content: center;
+  position: relative;
+
 }
+
 .items img {
   height: 200px;
   margin: 10px;
+
+}
+
+.items span{
+  display: block;
+  padding:5px;
+}
+
+/*Locations*/
+
+.locations{
+  width:1200px;
+  height:500px;
+  margin: auto;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
+}
+
+.venues{
+  display: inline-block;
+  position: relative;
+  background-color:black;
+  text-align: center;
+  margin: 0 auto;
+  width:300px;
+  margin-top: 15px;
+  margin-right: 40px;
+}
+
+/*Footer*/
+
+footer{
+  text-align: left;
+  padding: 20px;
 }
